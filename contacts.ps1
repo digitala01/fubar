@@ -1,1 +1,1 @@
-Add-MailboxFolderPermission cmastandrea@whitestonereit.com:\Contacts -User laysaquirre@whitestonereit.com -AccessRights PublishingEditor
+Add-MailboxFolderPermission "Users email" email:\Contacts -User "getting rights email" -AccessRights PublishingEditor
