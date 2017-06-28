@@ -1,1 +1,1 @@
-﻿Set-Mailbox yrobey-stepanski@whitestonereit.com -LitigationHoldEnabled $true
+﻿Set-Mailbox "Users email" -LitigationHoldEnabled $true
