@@ -1,0 +1,1 @@
+﻿Set-Mailbox user1 -ForwardingSmtpAddress user2@example.com -DeliverToMailboxAndForward $true

@@ -1,0 +1,19 @@
+Forward emails to user
+
+Set-Mailbox user1 -ForwardingSmtpAddress user2@example.com -DeliverToMailboxAndForward $true
+
+$flase = do not save a copy on user1 mailbox
+$true = save a copy on user1 mailbox
+
+
+
+Turn off Forwarding
+
+Set-Mailbox user1 -ForwardingSmtpAddress $null
+
+
+
+Check to whom the email is forwarding to
+
+Get-Mailbox -Identity user1 | fl DeliverToMailboxAndForward,ForwardingAddress,ForwardingSmtpAddress
+

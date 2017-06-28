@@ -1,0 +1,1 @@
+﻿Remove-MailboxFolderPermission -Identity calendar@company:\calendar -user dude@company.com

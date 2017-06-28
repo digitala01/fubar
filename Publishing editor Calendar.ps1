@@ -1,0 +1,1 @@
+﻿Add-MailboxFolderPermission calendar@company.com:\Calendar -User dude@company.com -AccessRights PublishingEditor

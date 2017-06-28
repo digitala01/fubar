@@ -1,0 +1,1 @@
+﻿Set-Mailbox yrobey-stepanski@whitestonereit.com -LitigationHoldEnabled $true

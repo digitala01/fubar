@@ -1,0 +1,1 @@
+Add-MailboxFolderPermission cmastandrea@whitestonereit.com:\Contacts -User laysaquirre@whitestonereit.com -AccessRights PublishingEditor

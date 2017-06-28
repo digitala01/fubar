@@ -1,0 +1,1 @@
+﻿Set-MailboxAutoReplyConfiguration -Identity user@example.com -AutoReplyState Disabled

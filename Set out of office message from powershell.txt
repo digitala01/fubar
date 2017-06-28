@@ -1,0 +1,8 @@
+Set out of office message from 365 powershell
+
+Enable
+Set-MailboxAutoReplyConfiguration -Identity user@example.com -AutoReplyState Enabled -ExternalMessage "message with whatever autoreply" -InternalMessage "internal something autoreply"
+
+Disable
+Set-MailboxAutoReplyConfiguration -Identity user@example.com -AutoReplyState Disabled
+
